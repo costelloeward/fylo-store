@@ -1,20 +1,20 @@
+
+:root{
+  --main-text:hsl(243, 100%, 93%);
+  --warning-text:hsl(229, 7%, 55%);
+  --primary:hsl(228, 56%, 26%);
+  --accent:hsl(229, 57%, 11%);
+}
 body{
-  background-color: yellow;
+  background-color: var(--primary);
 }
 
 
 /* ## Colors
 
-### Primary
 
 - Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%)
 
-### Neutral
-
-- Pale Blue: hsl(243, 100%, 93%)
-- Grayish Blue: hsl(229, 7%, 55%)
-- Dark Blue: hsl(228, 56%, 26%)
-- Very Dark Blue: hsl(229, 57%, 11%)
 
 ### Font
 
