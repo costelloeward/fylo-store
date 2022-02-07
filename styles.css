@@ -6,19 +6,22 @@
   --accent:hsl(229, 57%, 11%);
 }
 body{
-  background-color: var(--primary);
+  background-color: var(--warning-text);
   color: var(--main-text);
   font-family: 'Raleway', sans-serif;
 }
+div{
+  background-color: var(--primary)
+}
 
+.component{
+  display: flex;
+  max-width: 30rem;
+  margin:auto;
+}
 
-/* ## Colors
+/* slider
 
+Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%)
 
-- Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%)
-
-
-### Font
-
-- Family: [Raleway](https://fonts.google.com/specimen/Raleway)
-- Weights: 400, 700 */
+/* Styling for larger screen sizes */
