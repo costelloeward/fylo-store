@@ -16,10 +16,17 @@ div{
 
 .component{
   display: flex;
+  flex-direction: column;
   max-width: 30rem;
   margin:auto;
 }
-
+.warning{
+  background-color: white;
+  color: var(--warning-text);
+}
+.gb-left{
+  color: var(--accent);
+}
 /* slider
 
 Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%)
