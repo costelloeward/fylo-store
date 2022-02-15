@@ -1,4 +1,10 @@
+/* Trying out css reset */
 
+*{
+  margin:0;
+  padding:0;
+}
+/* Colour variables */
 :root{
   --main-text:hsl(243, 100%, 93%);
   --warning-text:hsl(229, 7%, 55%);
@@ -10,11 +16,11 @@ body{
   color: var(--main-text);
   font-family: 'Raleway', sans-serif;
 }
-div{
+section{
   background-color: var(--primary)
 }
 
-.component{
+main{
   display: flex;
   flex-direction: column;
   max-width: 30rem;
