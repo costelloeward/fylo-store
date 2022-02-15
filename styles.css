@@ -34,6 +34,13 @@ section{
   padding: 2rem;
 }
 
+.icon{
+  background-color: var(--accent);
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  padding: 5%;
+}
+
 .warning{
   background-color: white;
   color: var(--warning-text);
