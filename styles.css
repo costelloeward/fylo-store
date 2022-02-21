@@ -35,6 +35,10 @@ section{
 }
 .curve-box{
   border-radius: 0.5rem 5rem 0.5rem 0.5rem;
+  text-align: left;
+}
+.logo{
+  padding-left: 0.7rem;
 }
 .icon{
   background-color: var(--accent);
