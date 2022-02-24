@@ -58,6 +58,7 @@ section{
   height: 1rem;
   margin: 1rem;
   outline: solid black;
+  overflow: hidden;
   width: 80%;
 }
 
@@ -65,7 +66,7 @@ section{
   -webkit-appearance: none;
   appearance: none;
   border-radius:5rem;
-  box-shadow: -10vw 0 0 10vw hsl(6, 100%, 80%);
+  box-shadow: -10rem 0 0 10rem hsl(6, 100%, 80%);
   /* horizontal position vertical position blur spread in all directions colour (inset) */
   width: 1rem;
   height: 1rem;
