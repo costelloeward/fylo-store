@@ -53,7 +53,7 @@ section{
 
 .slider {
   -webkit-appearance: none;
-  background: hsl(6, 100%, 80%);
+  background: var(--accent);
   border-radius:5rem;
   height: 1rem;
   margin: 1rem;
@@ -65,6 +65,8 @@ section{
   -webkit-appearance: none;
   appearance: none;
   border-radius:5rem;
+  box-shadow: -10vw 0 0 10vw hsl(6, 100%, 80%);
+  /* horizontal position vertical position blur spread in all directions colour (inset) */
   width: 1rem;
   height: 1rem;
   background: white;
