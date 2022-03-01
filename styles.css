@@ -74,9 +74,11 @@ section{
   cursor: pointer;
 }
 .warning{
+  align-self: center;
   background-color: white;
   color: var(--warning-text);
   font-weight: 700;
+  margin-top: -3rem;
 }
 
 .gb-left{
