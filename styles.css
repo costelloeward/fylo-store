@@ -73,6 +73,10 @@ section{
   background: white;
   cursor: pointer;
 }
+
+.end-values{
+  display: flex;
+}
 .warning{
   align-self: center;
   background-color: white;
