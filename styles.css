@@ -12,7 +12,7 @@
   --accent:hsl(229, 57%, 11%);
 }
 body{
-  background-color: var(--warning-text);
+  background:url(images/bg-mobile.png)no-repeat var(--primary);
   color: var(--main-text);
   font-family: 'Raleway', sans-serif;
   padding: 5rem 1rem;
