@@ -95,3 +95,10 @@ Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%)
 background: linear-gradient(90deg, #ffa399, #ff918e, #ff8389, #ff7889, #ff6e8a, #ff638d, #ff5891, #ff4d97);
 
 /* Styling for larger screen sizes */
+@media (min-width:64rem) {
+  body{
+  background:url(images/bg-desktop.png) no-repeat var(--accent);
+background-attachment: fixed;
+  background-position: bottom;
+  }
+}
