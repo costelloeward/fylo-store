@@ -103,4 +103,34 @@ background: linear-gradient(90deg, #ffa399, #ff918e, #ff8389, #ff7889, #ff6e8a, 
     background-position: bottom;
   }
 
+  .warning{
+    background-color: white;
+    color: var(--warning-text);
+    font-weight: 700;
+    /* height: 6rem; */
+    position: relative;
+    text-align: center;
+    /* width: 12rem; */
+
+ /* line-height: 6rem; */
+ border: 0.5rem solid white;
+ -webkit-border-radius: 1rem;
+ -moz-border-radius: 1rem;
+ border-radius: 1rem;
+ /* -webkit-box-shadow: 0.2rem 0.2rem 0.4rem black;
+ -moz-box-shadow: 0.2rem 0.2rem 0.4rem black;
+ box-shadow: 0.2rem 0.2rem 0.4rem black; */
+  }
+
+  .warning:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 7rem;
+    top: 6rem;
+    border: 1.5rem solid;
+    border-color:  white white transparent transparent;
+  }
+
 }
