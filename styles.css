@@ -13,8 +13,7 @@
 }
 body{
   background:url(images/bg-mobile.png)no-repeat var(--accent);
-background-size: cover;
-
+  background-size: cover;
   color: var(--main-text);
   font-family: 'Raleway', sans-serif;
   padding: 5rem 1rem;
@@ -68,7 +67,7 @@ section{
   appearance: none;
   border-radius:5rem;
   box-shadow: -10rem 0 0 10rem hsl(6, 100%, 80%);
-  /* horizontal position vertical position blur spread in all directions colour (inset) */
+  /* box shadow property order: horizontal position vertical position blur spread in all directions colour (inset) */
   width: 1rem;
   height: 1rem;
   background: white;
@@ -90,7 +89,7 @@ section{
 }
 
 
-/* slider
+/* slider gradient
 
 Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%)
 background: linear-gradient(90deg, #ffa399, #ff918e, #ff8389, #ff7889, #ff6e8a, #ff638d, #ff5891, #ff4d97);
@@ -99,38 +98,42 @@ background: linear-gradient(90deg, #ffa399, #ff918e, #ff8389, #ff7889, #ff6e8a, 
 @media (min-width:42rem) {
   body{
   background:url(images/bg-desktop.png) no-repeat var(--accent);
-    background-attachment: fixed;
-    background-position: bottom;
+  background-attachment: fixed;
+  background-position: bottom;
   }
+
+/* Positioning */
+main {
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 1rem;
+grid-row-gap: 1rem;
+}
+
+.curve-box { grid-area: 2 / 2 / 4 / 3; }
+.storage-summary { grid-area: 2 / 3 / 4 / 5; }
 
   .warning{
     background-color: white;
+    border: 0.5rem solid white;
+    border-radius: 1rem;
     color: var(--warning-text);
     font-weight: 700;
-    /* height: 6rem; */
+    grid-area: 1 / 4 / 2 / 2;
     position: relative;
     text-align: center;
-    /* width: 12rem; */
 
- /* line-height: 6rem; */
- border: 0.5rem solid white;
- -webkit-border-radius: 1rem;
- -moz-border-radius: 1rem;
- border-radius: 1rem;
- /* -webkit-box-shadow: 0.2rem 0.2rem 0.4rem black;
- -moz-box-shadow: 0.2rem 0.2rem 0.4rem black;
- box-shadow: 0.2rem 0.2rem 0.4rem black; */
   }
-
+/* Speech shape */
   .warning:before {
-    content: ' ';
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: 7rem;
-    top: 6rem;
     border: 1.5rem solid;
     border-color:  white white transparent transparent;
+    content: ' ';
+    height: 0;
+    left: 7rem;
+    position: absolute;
+    top: 6rem;
+    width: 0;
   }
 
 }
