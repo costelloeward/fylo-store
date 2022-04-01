@@ -108,6 +108,7 @@ grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(3, 1fr);
 grid-column-gap: 1rem;
 grid-row-gap: 1rem;
+max-width: none;
 }
 
 .curve-box { grid-area: 2 / 2 / 4 / 3; }
