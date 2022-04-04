@@ -120,7 +120,7 @@ max-width: none;
     border-radius: 1rem;
     color: var(--warning-text);
     font-weight: 700;
-    grid-area: 1 / 4 / 2 / 2;
+    grid-area: 1 / 4 / 2 / 4;
     position: relative;
     text-align: center;
 
@@ -131,7 +131,7 @@ max-width: none;
     border-color:  white white transparent transparent;
     content: ' ';
     height: 0;
-    left: 7rem;
+    left: 7.1rem;
     position: absolute;
     top: 6rem;
     width: 0;
