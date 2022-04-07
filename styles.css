@@ -100,6 +100,7 @@ background: linear-gradient(90deg, #ffa399, #ff918e, #ff8389, #ff7889, #ff6e8a, 
   background:url(images/bg-desktop.png) no-repeat var(--accent);
   background-attachment: fixed;
   background-position: bottom;
+  text-align: left;
   }
 
 /* Positioning */
@@ -113,7 +114,9 @@ max-width: none;
 
 .curve-box { grid-area: 2 / 2 / 4 / 3; }
 .storage-summary { grid-area: 2 / 3 / 4 / 5; }
-
+.usage{
+  margin-left: 1rem;
+}
   .warning{
     background-color: white;
     border: 0.5rem solid white;
@@ -125,7 +128,7 @@ max-width: none;
     text-align: center;
 
   }
-/* Speech shape */
+/* Speech bubble shape */
   .warning:before {
     border: 1.5rem solid;
     border-color:  white white transparent transparent;
