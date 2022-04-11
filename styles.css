@@ -124,7 +124,7 @@ section{
   .warning{
     background-color: white;
     border: 0.5rem solid white;
-    border-radius: 1rem;
+    border-radius: 1rem 1rem 0 1rem;
     color: var(--warning-text);
     font-weight: 700;
     grid-area: 1 / 4 / 2 / 4;
@@ -140,7 +140,7 @@ section{
     height: 0;
     left: 7.1rem;
     position: absolute;
-    top: 6rem;
+    top: 5rem;
     width: 0;
   }
 
