@@ -112,6 +112,10 @@ grid-row-gap: 1rem;
 max-width: none;
 }
 
+section{
+  padding: 2rem 1rem 1rem;
+}
+
 .curve-box { grid-area: 2 / 2 / 4 / 3; }
 .storage-summary { grid-area: 2 / 3 / 4 / 5; }
 .usage{
